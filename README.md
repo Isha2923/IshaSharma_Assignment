@@ -3,8 +3,13 @@ Overview
 The Vehicle Management API provides endpoints to manage vehicles and organizations. It supports operations such as adding vehicles, fetching vehicle details, and creating/updating organizations with specific policies.
 
 API Endpoints
+
 Link of video : https://drive.google.com/file/d/1fMbVSj1zWBGdnmiuaHdBrexqC-y_RHtg/view?usp=sharing
-GET /vehicles/decode/:vin
+
+Zip file link - https://drive.google.com/file/d/1CkqELmi20kGwGfdE4TFamrqwHJmWLiMz/view?usp=sharing
+
+
+# GET /vehicles/decode/:vin
 Description: Each vehicle has a unique identifier called a VIN (Vehicle Identification Number). This endpoint calls NHTSA’s DecodeVin API to decode the VIN and fetch details about the vehicle, specifically the manufacturer, model, and year.
 
 Parameters:
